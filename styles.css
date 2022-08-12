@@ -1,3 +1,37 @@
+:root {
+    --main-color: #00A36C;
+    --white: rgb(255, 255, 255);
+    --black: #000;
+}
+
+.text-white {
+    color: var(--white);
+}
+
 html {
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+
+.myName {
+    color: var(--main-color);
+}
+.hero {
+    color: var(--white);
+    position: absolute;
+    padding-top: 10%;
+}
+
+#particles-js {
+    background-color: #1e1f25;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
 }
