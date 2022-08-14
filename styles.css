@@ -19,19 +19,44 @@ h2 {
     font-size: 1.8rem;
 }
 
+.nav-link {
+    color: var(--white);
+}
+
 .myName {
     color: var(--main-color);
 }
 .hero {
     color: var(--white);
     position: absolute;
-    padding-top: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar, .hero {
+    z-index: 1;
 }
 
 #particles-js {
     background-color: #1e1f25;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    z-index: -1;
-    width: 100%;
+}
+
+.btn-light {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.btn-light:hover {
+    background-color: var(--white);
+    color: var(--main-color);
+}
+
+.btn-dark {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
 }
