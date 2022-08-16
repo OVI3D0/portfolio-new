@@ -76,6 +76,19 @@ h2 {
     max-height: 100%;
 }
 
+.contact-card {
+    max-width: 33%;
+}
+
+.contact-fa {
+    color: var(--main-color);
+}
+
+.footer {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
 @media only screen and (max-width: 768px) {
     .project-col {
         padding: auto;
