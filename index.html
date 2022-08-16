@@ -32,16 +32,16 @@
         <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto me-5">
             <li class="nav-item mx-3">
-              <a class="nav-link" aria-current="page" href="#">Projects</a>
+              <a class="nav-link" aria-current="page" href="#projects">Projects</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="MichaelOviedoResume_2022.pdf" target="_blank">Resume</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,8 +52,8 @@
       <h1 class="fw-bolder">Hi, I'm <span class="myName">Michael</span></h1>
       <h2 class="pt-3 fw-bold">I'm a front end developer, and student at Western Connecticut State University.</h2>
       <div class="pt-5">
-        <button class="btn btn-light px-4 py-2 mx-3 my-2">Projects <i class="fa-solid fa-code"></i></button>
-        <button class="btn btn-dark px-4 py-2 mx-3 my-2">Github <i class="fa-brands fa-github"></i></button>
+        <a href="#projects" class="projects-link-trans"><button class="btn btn-light px-4 py-2 mx-3 my-2">Projects <i class="fa-solid fa-code"></i></button></a>
+        <a target="_blank" href="https://github.com/OVI3D0" class="projects-link-color"><button class="btn btn-dark px-4 py-2 mx-3 my-2 gh-btn">Github <i class="fa-brands fa-github"></i></button></a>
       </div>
     </div>
 
@@ -61,15 +61,15 @@
     </section>
   </section>
 
-    <section class="text-center py-5">
+    <section class="text-center py-5" id="projects">
       <h2 class="fw-bold">My <span class="myName">Projects</span></h2>
 
       <div class="row project-row py-3 fade-div">
         <div class="col-12 col-md-6 project-col">
-          <img class="w-100 h-100 py-3" src="images/example-project.jpeg">
+          <img class="w-100 h-100 py-3" src="images/spotify-clone-img.png">
         </div>
         <div class="col-12 col-md-6 project-col pt-2">
-          <h2 class="mt-5">Example project</h2>
+          <h2 class="mt-5">Spotify Clone</h2>
           <p class="pt-3">Made with: 
             <i class="fa-brands fa-html5 px-2"></i>
             <i class="fa-brands fa-css3 px-2"></i>
@@ -78,21 +78,25 @@
             <i class="fa-brands fa-react px-2"></i>
           </p>
           <p class="w-75 mx-auto py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Spotify clone built using the spotify API, and React.js. <br>
+            The user is able to log in, and if there is music playing from their spotify account,
+            the app will listen and display the currently playing song in the player at the bottom.
+            The user is also able to see their created playlists on the side, and display the playlist
+            by clicking on it.
           </p>
           <div>
-            <button class="btn btn-dark px-4 py-2 mx-3">Demo</button>
-            <button class="btn btn-light px-4 py-2 mx-3">Code</button>
+            <a href="#" class="project-link-color"><button class="btn btn-dark px-4 py-2 mx-3">Demo</button></a>
+            <a class="projects-link-trans" href="https://github.com/OVI3D0/spotify-clone" target="_blank"><button class="btn btn-light px-4 py-2 mx-3">Code</button></a>
           </div>
         </div>
       </div>
 
       <div class="row project-row py-3 fade-div">
         <div class="col-12 col-md-6 project-col">
-          <img class="w-100 h-100 py-3" src="images/example-project2.webp">
+          <img class="w-100 h-100 py-3" src="images/notes-app-img.png">
         </div>
         <div class="col-12 col-md-6 project-col pt-2">
-          <h2 class="mt-5">Example project</h2>
+          <h2 class="mt-5">Notes App</h2>
           <p class="pt-3">Made with: 
             <i class="fa-brands fa-html5 px-2"></i>
             <i class="fa-brands fa-css3 px-2"></i>
@@ -101,41 +105,48 @@
             <i class="fa-brands fa-react px-2"></i>
           </p>
           <p class="w-75 mx-auto py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Notes app built using React.js. <br>
+            The user is able to save, delete, and view different notes using a markdown editor.
+            The notes are saved in localstorage, and the user is able to see their notes even after
+            closing and reopening the app. Users are also able to change between light and dark mode.
           </p>
           <div>
-            <button class="btn btn-dark px-4 py-2 mx-3">Demo</button>
-            <button class="btn btn-light px-4 py-2 mx-3">Code</button>
+            <a href="https://starlit-centaur-aee8ed.netlify.app/" class="project-link-color" target="_blank"><button class="btn btn-dark px-4 py-2 mx-3">Demo</button></a>
+            <a class="projects-link-trans" href="https://github.com/OVI3D0/notes-app" target="_blank"><button class="btn btn-light px-4 py-2 mx-3">Code</button></a>
           </div>
         </div>
       </div>
 
       <div class="row project-row py-3 fade-div">
         <div class="col-12 col-md-6 project-col">
-          <img class="w-100 h-100 py-3" src="images/example-project3.jpeg">
+          <img class="w-100 h-100 py-3" src="images/my-money-img.png">
         </div>
         <div class="col-12 col-md-6 project-col pt-2">
-          <h2 class="mt-5">Example project</h2>
+          <h2 class="mt-5">Finance Tracker</h2>
           <p class="pt-3">Made with: 
             <i class="fa-brands fa-html5 px-2"></i>
             <i class="fa-brands fa-css3 px-2"></i>
-            <i class="fa-brands fa-bootstrap px-2"></i>
             <i class="fa-brands fa-js px-2"></i>
             <i class="fa-brands fa-react px-2"></i>
+            <i class="fa-solid fa-database"></i>
           </p>
           <p class="w-75 mx-auto py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Finance Tracker App built using React & Firebase as a part of NetNinja's
+            React+Firebase course on udemy.
+            The user is able to log in using firebase authentication, and store
+            transactions. The app then saves these transactions for each user independently,
+            and they are fetched from firebase collections upon logging in.
           </p>
           <div>
-            <button class="btn btn-dark px-4 py-2 mx-3">Demo</button>
-            <button class="btn btn-light px-4 py-2 mx-3">Code</button>
+            <a target="_blank" href="https://playful-fudge-8e6d2d.netlify.app/" class="projects-link-color"><button class="btn btn-dark px-4 py-2 mx-3">Demo</button></a>
+            <a class="projects-link-trans" href="https://github.com/OVI3D0/my-money" target="_blank"><button class="btn btn-light px-4 py-2 mx-3">Code</button></a>
           </div>
         </div>
       </div>
 
     </section>
 
-    <section class="skills w-100 section-dark text-center py-5">
+    <section class="skills w-100 section-dark text-center py-5" id="skills">
       <h2 class="fw-bold pb-5">My <span class="myName">Skills</span></h2>
       <div class="skills-row fade-div">
         <img src="images/html.png" class="skills-img" alt="">
@@ -156,20 +167,35 @@
       </p>
     </section>
 
-    <section class="contact text-center py-5">
+    <section class="contact text-center py-5" id="contact">
       <h2 class="fw-bold pb-5">Contact <span class="myName">Me</span></h2>
       <div class="row px-3 d-flex justify-content-center fade-div">
         <div class="contact-card col-12 col-md-3 shadow mx-3 my-3 py-3">
-            <i class="fa-solid fa-envelope fa-2xl py-4 contact-fa"></i> <br>
-            Email
+            <a href="mailto:michael.j.oviedo@gmail.com">
+              <i class="fa-solid fa-envelope fa-2xl py-4 contact-fa"></i>
+            </a>
+            <br>
+            <a class="contact-link" href="mailto:michael.j.oviedo@gmail.com">
+              Email
+            </a>
         </div>
         <div class="contact-card col-12 col-md-3 shadow mx-3 my-3 py-3">
-          <i class="fa-brands fa-linkedin fa-2xl py-4 contact-fa"></i> <br>
-          LinkedIn
+          <a href="https://www.linkedin.com/in/michael-oviedo-00669a198/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2xl py-4 contact-fa"></i>
+          </a>
+          <br>
+          <a class="contact-link" href="https://www.linkedin.com/in/michael-oviedo-00669a198/" target="_blank">
+            LinkedIn
+          </a>
         </div>
         <div class="contact-card col-12 col-md-3 shadow mx-3 my-3 py-3">
-          <i class="fa-brands fa-square-github fa-2xl py-4 contact-fa"></i> <br>
-          Github
+          <a href="https://github.com/OVI3D0" target="_blank">
+            <i class="fa-brands fa-square-github fa-2xl py-4 contact-fa"></i>
+          </a>
+          <br>
+          <a class="contact-link" href="https://github.com/OVI3D0" target="_blank">
+            Github
+          </a>
         </div>
       </div>
     </section>
@@ -178,21 +204,21 @@
       <h2>Michael Oviedo</h2>
       <div class="row py-4">
         <div class="col-12 col-md-3 py-4">
-          <p class="pb-2">Navigation</p>
+          <p class="pb-2 text-decoration-underline nav-title">Navigation</p>
           <ul>
-            <li><a href="#">Back to the top</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Resume</a></li>
+            <li class="py-2"><a href="#">Back to the top</a></li>
+            <li class="py-2"><a href="#projects">Projects</a></li>
+            <li class="py-2"><a href="#skills">Skills</a></li>
+            <li class="py-2"><a href="MichaelOviedoResume_2022.pdf" target="_blank">Resume</a></li>
           </ul>
         </div>
         <div class="col-12 col-md-3 py-4">
-          <p class="pb-2">Socials</p>
+          <p class="pb-2 text-decoration-underline nav-title">Socials</p>
           <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Github</a></li>
+            <li class="py-2"><a href="https://www.instagram.com/mike_oviedo/" target="_blank">Instagram</a></li>
+            <li class="py-2"><a href="https://twitter.com/devMike_" target="_blank">Twitter</a></li>
+            <li class="py-2"><a href="https://www.linkedin.com/in/michael-oviedo-00669a198/" target="_blank">LinkedIn</a></li>
+            <li class="py-2"><a href="https://github.com/OVI3D0" target="_blank">Github</a></li>
           </ul>
         </div>
       </div>

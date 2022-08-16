@@ -71,6 +71,17 @@ h2 {
     color: var(--white);
 }
 
+.projects-link-trans {
+    color: inherit;
+}
+
+.projects-link-color {
+    color: inherit;
+}
+.projects-link-color:hover {
+    color: var(--white);
+}
+
 .skills-img {
     max-width: 200px;
     max-height: 100%;
@@ -84,9 +95,29 @@ h2 {
     color: var(--main-color);
 }
 
+.contact-link {
+    color: var(--main-color);
+}
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 .footer {
     background-color: var(--dark);
     color: var(--white);
+}
+
+.nav-title {
+    color: var(--main-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--main-color);
 }
 
 @media only screen and (max-width: 768px) {
