@@ -143,3 +143,8 @@ a:hover {
     -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
     transform: translateY(0px) rotate(0deg) translateZ(0);
 }
+
+.limit-height {
+    max-height: 500px; /* Adjust this value to the maximum height you want */
+    object-fit: contain; /* This will make sure the image scales down if it's too tall */
+  }  
